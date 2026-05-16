@@ -28,9 +28,6 @@ public class StartScreenController {
 		 });
 		 
 		 view.getStartBtn().setOnAction(e -> {
-			    System.out.println("START clicked");
-			    System.out.println("chosenRole = " + chosenRole);
-			    System.out.println("warningLabel = " + view.getWarningLabel());
 			    
 			    if (chosenRole == null) {
 			        view.getWarningLabel().setVisible(true);

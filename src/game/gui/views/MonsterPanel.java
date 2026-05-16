@@ -176,14 +176,7 @@ public class MonsterPanel {
 	 focusBadge.setVisible(focusTurns > 0);
 	 focusBadge.setText("Focus: " + focusTurns);
 	 
-	 
-	 
-	 
 	 }
-	 
-	 
-	 
-	 
 	    public VBox getPanel() { return panel;
 	   }
 	}
