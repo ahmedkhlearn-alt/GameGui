@@ -144,7 +144,7 @@ public class MonsterPanel {
 	        );
 	        return badge;
 	    }
-	 public void update(String name, String type, String originalRole,String currentRole, int energy, int position,boolean shielded, boolean frozen,int confusionTurns, int momentumTurns, int focusTurns) {
+	public void update(String name, String type, String originalRole,String currentRole, int energy, int position,boolean shielded, boolean frozen,int confusionTurns, int momentumTurns, int focusTurns) {
 	nameLabel.setText(name);
 	typeLabel.setText("Type: " + type);
 	originalRoleLabel.setText("Role: " + originalRole);
