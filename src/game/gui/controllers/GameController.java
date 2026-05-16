@@ -14,7 +14,7 @@ import game.engine.monsters.*;
 import game.gui.AppColors;
 import game.gui.views.*;
 
-public class BoardController {
+public class GameController {
 	
 	private Game game;
 	private BoardView boardView;
@@ -26,9 +26,6 @@ public class BoardController {
     private Label  diceResultLabel;
     private Label  statusLabel;    	    
     private Stage stage;
-
-	    // ── Card tracking ─────────────────────────────────────────────────────
-	    // Board.drawCard() is called inside the engine during playTurn().
-	    // We track the card deck size BEFORE playTurn() — if it shrank, a card was drawn.
-	    private int cardDeckSizeBefore;
+    private int cardDeckSizeBefore;
+    
 }
